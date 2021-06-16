@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+
+.heading {
+    padding-top: 15%;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Lexand Deca', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.card {
+    flex-direction: row;
+}
+
+.text {
+    flex-direction: column;
+}
+
+img {
+    width: 50%;
+    border-radius: 0% 5% 5% 0%;
+}
+
+.main-para {
+    font-size: 1.2vw;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat-heading th {
+    padding: 2%;
+    color: hsl(0, 0%, 100%);
+    font-size: 3.5vh;
+}
+
+.stat-heading{
+    padding: 10%;
+    font-size: 1.5vh;
+    color: hsla(0, 0%, 100%, 0.6);
+}

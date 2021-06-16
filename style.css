@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+
+    width: 70%;
+}
+
+.text {
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5% 0% 0% 5%;
+}
+
+.accent {
+    color: hsl(277, 64%, 61%);
+}
+
+.heading, .main-para, .stat-heading {
+    padding: 5% 10%;
+    width: 80%;
+}
+
+/* Stat Heading */
+
+table {
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    width: auto;
+}
+
+img:hover {
+    width: 100%;
+}
